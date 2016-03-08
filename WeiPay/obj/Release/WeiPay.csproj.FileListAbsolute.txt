@@ -1,0 +1,10 @@
+E:\site\henry\henry_sells\henry_sells\WeiPay\bin\Release\WeiPay.dll
+E:\site\henry\henry_sells\henry_sells\WeiPay\bin\Release\WeiPay.pdb
+E:\site\henry\henry_sells\henry_sells\WeiPay\obj\Release\WeiPay.csprojResolveAssemblyReference.cache
+E:\site\henry\henry_sells\henry_sells\WeiPay\obj\Release\WeiPay.dll
+E:\site\henry\henry_sells\henry_sells\WeiPay\obj\Release\WeiPay.pdb
+E:\site\henry\henry_sells\henry_sells2.0\WeiPay\bin\Release\WeiPay.dll
+E:\site\henry\henry_sells\henry_sells2.0\WeiPay\bin\Release\WeiPay.pdb
+E:\site\henry\henry_sells\henry_sells2.0\WeiPay\obj\Release\WeiPay.csprojResolveAssemblyReference.cache
+E:\site\henry\henry_sells\henry_sells2.0\WeiPay\obj\Release\WeiPay.dll
+E:\site\henry\henry_sells\henry_sells2.0\WeiPay\obj\Release\WeiPay.pdb

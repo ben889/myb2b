@@ -1,0 +1,17 @@
+﻿body { text-align: center; font-size: 12px; background-image: url(../images/bg.jpg); background-repeat: repeat-x; background-position: top; margin: 0; color: #000000; background-attachment: fixed; }
+form, ul { margin: 0; padding: 0; }
+h1 { margin: 0; padding: 0; font-size: 14px; }
+a, a:link { text-decoration: none; color: #44865C; }
+img, input, select { vertical-align: middle; }
+.login { margin: 20px 0 0 0; }
+.login-box { margin: 0 auto 50px auto; width: 800px; }
+#logo { text-align: left; margin: 0 0 50px 0; }
+.login-box-left { float: left; width: 490px; height: 270px; overflow: hidden; }
+.login-box-right { float: right; width: 250px; height: 230px; background-color: #FFF; padding: 20px 20px; overflow: hidden; }
+.loginform ul li { margin: 0 0 5px 0; list-style-type: none; padding: 5px 0 0 0; text-align: left; height: 35px; width: 100%; display: block; }
+.texbox { height: 30px; border: 1px solid #CCC; background-color: #FFF; line-height: 30px; font-size: 16px; color: #333;            /*text-indent: 10px;*/ border-radius: 2px; }
+.loginbutton { background-image: url(../images/lg_btn.png); width: 140px; height: 40px; background-color: transparent; font-size: 18px; color: #FFF; font-family: "微软雅黑"; border: none; }
+.input_w { background: none repeat scroll 0 0 #FFFFFF; height: 40px; position: relative; }
+.input_w input { background: none repeat scroll 0 0 transparent; }
+input:focus { border-color: #42B1D0; }
+.input_w label { color: #AAAAAA; cursor: text; display: block; position: absolute; font: 14px/40px Microsoft Yahei, Simsun, Tahoma; height: 40px; line-height: 40px; left: 0; top: 0; overflow: hidden; text-indent: 10px; }

@@ -1,0 +1,5 @@
+E:\site\kk\sys\kk_pub\trunk\kk_pub\Common\bin\Release\Common.dll
+E:\site\kk\sys\kk_pub\trunk\kk_pub\Common\bin\Release\Common.pdb
+E:\site\kk\sys\kk_pub\trunk\kk_pub\Common\obj\Release\Common.dll
+E:\site\kk\sys\kk_pub\trunk\kk_pub\Common\obj\Release\Common.pdb
+E:\site\kk\sys\kk_pub\trunk\kk_pub\Common\obj\Release\Common.csprojResolveAssemblyReference.cache

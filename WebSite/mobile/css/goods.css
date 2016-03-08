@@ -1,0 +1,163 @@
+﻿/***********首页广告位**********/
+.index_ad{padding:3px;background-color:#ffffff;}
+.index_ad a{width: 50%;float:left;display:block;background-color:#ffffff;}
+.index_ad a .section{margin:3px; background-color:#f7f7f7;position:relative;overflow:hidden;}
+/***********首页广告位**********/
+/**=======================内容行====================**/
+.row_con{background-color:#ffffff;border-top:1px solid #cccccc;}
+.row_hr{height:8px;background-color:#eeeeee;}
+.nav-cens {width:100%;background-color:#FFFFFF;}
+.nav-cen {margin:0 auto;padding:0 10px;}
+.nav-cen a,.nav-cen a:visited{font-size:12px;color:#828282;}
+.nav-cen-ul li {float:left;height:84px;text-align:center;position:relative;width:20%;padding:15px 0px 0px 0px;}
+.index_tts{height:28px;line-height:28px;padding:2px 2px 2px 20px;clear:both;font-size:14px;font-weight:bold;color:#FF4D6D;border-bottom:1px solid #eeeeee;}
+.index_tts a{color:#FF4D6D;}
+.nav-cen-ul li a {display:block;text-decoration:none;}
+.nav-cen-ul li p {font-size:0.8em;color:rgb(0,0,0);}
+.thelist{padding-bottom:4px;}
+.thelist_yuki{background:#f2f2f2;}
+.thelist_yuki li{ width:45%; height:96px; display:block; margin-right:6px; float:left; margin-bottom:6px; padding:6px 0px 6px 6px;}
+.thelist li {height:96px;display:block;background:#fff;margin-bottom:6px;padding:6px;}
+.thelist li p.allmer {margin:.1em 0;}
+.thelist-img {width:38%;float:left;display:block;margin:0px 0px 0px 1%;}
+.thelist-img img {margin:3px 0px 0px 0px;}
+.thelist-msg {width:60%;float:right;text-indent:.5em;}
+.thelist-msg p.t_01 {font-size:16px;height:25px;line-height:25px;overflow:hidden;font-weight:bold;}
+.thelist-msg p.t_02 {font-size:12px;color:#828282;height:25px;line-height:25px;overflow:hidden;}
+.thelist-msg p.t_02 span {font-size:14px;color:#FE4D00;}
+.thelist-msg p.t_02 a {font-size:14px;color:#FE4D00;}
+.thelist-msg p.t_03 {color:#FE4D00;height:22px;line-height:22px;overflow:hidden;}
+.thelist-msg p.t_03 span {font-size:16px;font-weight:bold;}
+.thelist-msg p.t_02 span.t_02_02 {text-decoration:line-through;color:#828282;}
+.thelist-msg p.t_02 span.t_02_01 {display:block;color:#828282;font-size:12px;float:right;margin:0px 10px 0px 0px;}
+.thelist-msg p.t_01 span.t_01_01 {display:block;float:right;font-weight:normal;font-size:12px;margin:0px 10px 0px -5px;}
+.thelist-msg p.t_01 img {float:right;display:block;margin:0px 0px 0px 0px;}
+.thelist-msg p.t_02 span.t_02_0 {margin:0px 5px 0px 0px;}
+.thelist-msg p.t_02 span.t_01_01 {display:block;float:right;font-weight:normal;font-size:12px;margin:0px 10px 0px -5px;}
+.thelist-msg p.t_02 img {float:right;display:block;margin:0px 0px 0px 0px;}
+
+.more a,.more a:visited{float:right;margin-right:10px;font-size:12px;color:#828282;}
+/**=======================内容行====================**/
+/*李工*/
+.m-detail-price {
+  vertical-align: text-top;
+  padding: 15px 18px;
+}
+.m-buy-btn {
+  position: absolute;
+  margin-right: 15px;
+  right: 0.5rem;
+  top: 0.5rem;
+  width: 4.8rem;
+  background-color: #F18741;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+.m-abstracts>h1 {
+  font-size: 18px;
+  margin: 8px 18px 4px 18px;
+  color: #000;
+  font-weight: 400;
+  color: #333333;
+  padding: 8px 0px 0px 0px;
+}
+.m-abstracts .m-share {
+  margin: 10px 18px;
+  border: 1px solid #2BB2A3;
+  border-radius: 5px;
+  text-align: center;
+  height: 30px;
+}
+
+
+
+
+
+/*=========================goodsdetail.aspx=================================*/
+.productimg {
+position: relative;
+overflow: hidden;
+display: block;
+height: 200px;
+}
+.productimg-desc {
+position: absolute;
+background: rgba(0, 0, 0, .5);
+text-align: center;
+color: white;
+z-index: 1;
+bottom: 0;
+width: 100%;
+height: 28px;
+line-height: 28px;
+font-size: 14px;
+}
+.m-detail-price {
+vertical-align: text-top;
+padding: 15px 18px;
+}
+
+.m-buy { position: relative; }
+.m-detail-price { vertical-align: text-top; padding: 15px 18px; }
+.m-detail-price strong { font-size: 20px; color: #2BB2A3; }
+.m-detail-price span { color: #2BB2A3; }
+.m-detail-price space { font-size: 13px; color: #999999; text-decoration: line-through; margin-left: 5px; }
+.m-buy-btn { position: absolute; margin-right: 15px; right: 0.5rem; top: 0.5rem; width: 4.8rem; background-color: #F18741; color: #ffffff; padding: 10px; border-radius: 5px; text-align:center; }
+
+.m-abstracts { border-top: 0; width: 100%; }
+.m-abstracts>h1 { font-size: 18px; margin: 8px 18px 4px 18px; color: #000; font-weight: 400; color: #333333; padding: 8px 0px 0px 0px; }
+.m-abstracts>p { color: #666666; margin: 0px 18px 5px 18px; font-size: 14px; }
+.m-abstracts .m-share { margin: 10px 18px; border: 1px solid #2BB2A3; border-radius: 5px; text-align: center; height: 30px; }
+.m-abstracts>.m-share>a { color: #2BB2A3; line-height: 30px; }
+
+.m-abstracts {
+border-top: 0;
+width: 100%;
+}
+
+.m-seller-message { position: relative; width: 100%; }
+.m-seller-message>h3 { font-size: 18px; font-weight: 400; margin: 5px 18px; color: #333333; }
+.m-seller-message .m-seller-ta { width: 100%; border-top: 1px solid #cccccc; }
+.m-seller-message .m-seller-ta .m-seller-con { float: left; margin: 15px auto; }
+.m-seller-message .m-seller-ta .m-seller-con h1 { font-weight: 400; font-size: 16px; margin: 5px 18px 15px 18px; color: #333333; }
+.m-seller-message .m-seller-ta .m-seller-con p { font-size: 14px; margin: 5px 18px; color: #333333; }
+.m-seller-message .m-seller-ta .m-seller-phone { float: right; margin: 15px auto; border-left: 1px solid #cccccc; height: 60px; line-height: 60px; padding: 0 15px; }
+.m-seller-message .m-seller-ta .m-seller-phone img { margin: 15px auto; }
+
+.m-seller-desc>h3 { font-size: 18px; font-weight: 400; margin: 5px 18px; color: #333333 }
+.m-seller-desc .m-seller-desc-con { width: 100%; border-top: 1px solid #cccccc }
+m-seller-desc-con img { max-width: 100%; }
+
+
+/*==========================================================*/
+
+/*=========================goods.aspx=================================*/
+
+.m_pager a {
+display: block;
+width: 100%;
+height: 36px;
+line-height: 36px;
+border: 0;
+background: none;
+color: #000000;
+border: 1px solid #eeeeee;
+background-color: #f1f1f1;
+font-size: 14px;
+cursor: pointer;
+text-align: center;
+border-radius: 4px;
+}
+user agent stylesheeta:-webkit-any-link {
+color: -webkit-link;
+text-decoration: underline;
+cursor: auto;
+}
+.m_pager {
+text-align: center;
+padding: 10px 10px;
+}
+/*==========================================================*/
+
+

@@ -1,0 +1,40 @@
+﻿input,select{vertical-align:middle;} 
+.pager {
+    clear: both;
+    display: block;
+    margin: 10px 0 20px 0;
+}
+
+.pager .contenspan {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei",Verdana;
+    font-size: 12px;
+    display:block;
+    position:relative;
+}
+
+.pager .contenspan span {
+    display: inline-block;
+    margin: 0 0 0 -1px;
+    padding: 4px 12px;
+    line-height: 20px;
+    height: 20px;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    color: #333;
+    text-decoration: none;
+    vertical-align:middle;
+}
+.pager .contenspan span.last{}
+.pager .contenspan select {
+    width:40px;
+    height:30px;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    color: #333;
+    margin:0;
+    padding:0;
+    top:0;
+    right:0;
+}

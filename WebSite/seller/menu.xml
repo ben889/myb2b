@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <item id="1" name="商家信息" url="editseller.aspx" icon="">
+    <item id="11" name="商家信息" url="editseller.aspx" icon="" />
+    <item id="12" name="更改密码" url="updatepassword.aspx" icon="" />
+  </item>
+  <item id="2" name="商城" url="" icon="">
+    <item id="21" name="商品" url="goods/goods.aspx" icon="" />
+    <item id="22" name="兑换记录" url="goods/goodsExch.aspx" icon="" />
+    <item id="23" name="兑换" url="goods/exch.aspx" icon="" />
+    <item id="24" name="订单" url="goods/orderlist.aspx" icon="" />
+  </item>
+</menu>

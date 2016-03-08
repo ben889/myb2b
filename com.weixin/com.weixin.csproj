@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C03BAF5-E33B-4DD6-9A01-FA7C35AF80C9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.weixin</RootNamespace>
+    <AssemblyName>com.weixin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>Svn</SccProjectName>
+    <SccLocalPath>Svn</SccLocalPath>
+    <SccAuxPath>Svn</SccAuxPath>
+    <SccProvider>SubversionScc</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\com.builder\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Reply.cs" />
+    <Compile Include="Data\wx_Users.cs" />
+    <Compile Include="Handlers\EventHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\HandlerFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\IHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\ImageHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\LinkHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\LocationHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\TextHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\VideoHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Handlers\VoiceHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Menu\MenuManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Event.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Image.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Link.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Location.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\OpenModel.cs" />
+    <Compile Include="Model\QRCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Template.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Text.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\UserInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Video.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Model\Voice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User\UserManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\Common.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\Context.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\FileUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\HttpUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\JSONHelper.cs" />
+    <Compile Include="Utility\MassMessages.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\Media.cs" />
+    <Compile Include="Utility\SecurityUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\XmlUtility.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WeatherHelper.cs" />
+    <Compile Include="WeiXinService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WXJSSDK.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Shell32">
+      <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{ff301081-7575-42cc-8a1b-65b0b2ce015d}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{673DE863-5D2D-49A1-8D1A-C95F0345B330}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{ef6453e6-22f7-4547-b5a6-f7b078df902c}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

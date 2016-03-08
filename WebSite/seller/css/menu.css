@@ -1,0 +1,42 @@
+﻿#menu { height: 30px; }
+#menu ul { padding: 0; margin: 0; }
+#menu ul li { float: left;list-style-type: none;color: #0d507a; display: inline-block; height: 24px; line-height: 24px; display: block; padding: 10px 20px; text-align: center; color: #ffffff; font-size: 14px; font-weight: bold;}
+#menu ul li img { margin: 0; }
+#menu ul li .icon { width: 16px; height: 16px; }
+#menu ul li a, #menu ul li a:visited, #menu ul li a:active {color: #ffffff;}
+#menu ul li a:hover {color: #ffffff;}
+#menu ul li.selected,#menu ul li.selected a { font-weight: bold; text-decoration: none; color: #000000; background: #ffffff; }
+
+/**********二级菜单******************/
+#menu ul li ul { margin: 0; padding: 0; position: absolute; display: none; background-color: #477fb8; }
+#menu ul li ul li { float: none !important; display: block; clear: both; width: 100%; text-align: center; height: 31px; background-image: none; padding: 0 !important; }
+#menu ul li ul li a, #menu ul li ul li a:visited { text-align: center; font-weight: bold; color: #FFF; height: 31px; line-height: 31px; display: block !important; background-image: none; padding: 0 18px; }
+#menu ul li ul li a:hover { }
+#menu ul li ul li.seleted { background-image: none !important; background-color: #D2E3E8 !important; }
+#menu ul li ul li.seleted a { color: #4A84AE; }
+
+/**********end二级菜单******************/
+
+/**********三级菜单******************/
+#menu ul li ul li ul { margin: 0; padding: 0; position: absolute; display: none; background-color: #477fb8; border: 1px solid red; }
+#menu ul li ul li ul li { float: none !important; display: inline; clear: both; width: 100%; text-align: center; height: 31px; background-image: none; padding: 0 !important; }
+#menu ul li ul li ul li a, #menu ul li ul li ul li a:visited { text-align: center; font-weight: bold; color: #FFF; height: 31px; line-height: 31px; display: block !important; background-image: none; padding: 0 18px; border: 1px solid green; }
+#menu ul li ul li ul li a:hover { }
+
+/**********end三级菜单******************/
+
+/****************左边子菜单***************/
+#submenu { margin: 0px; }
+#submenu-top { }
+.submenu-Title { margin: 0px 4px 0px 4px; font-size: 14px; font-weight: bold; line-height: 40px; }
+#submenu img { vertical-align: middle; margin: 4px 0; }
+#submenu ul { padding: 0; margin: 0; text-align: left; }
+#submenu ul li { line-height: 40px; font-weight: 700; margin: 0; display: block; background-color: #EDEFEF; }
+#submenu ul li a, #submenu ul li a:link, #submenu ul li a:visited, #submenu ul li a:active { color: #000000; font-size: 14px; font-weight: bold; text-decoration: none; height: 40px; line-height: 40px; display: block; padding-left: 12px; border-bottom: 1px solid #979797; }
+#submenu ul li a:hover { display: block; }
+#submenu ul li a.selected { display: block; }
+#submenu ul li ul { margin: 0; padding: 0; display: none; }
+#submenu ul li ul li { clear: both; text-decoration: none; height: 40px; line-height: 40px; cursor: pointer; color: #585858; margin: 0; background-color: #ffffff; }
+#submenu ul li ul li a, #submenu ul li ul li a:link, #submenu ul li ul li a:visited, #submenu ul li ul li a:active { display: block; height: 40px; line-height: 40px; font-weight: normal; border-bottom: 1px solid #d1d1d1; }
+#submenu ul li ul li a:hover { text-decoration: none; background-image: none; background: #368ee0; color: #fff; }
+#submenu ul li ul li a.selected { height: 24px; text-decoration: none; color: #FF6600 !important; background-image: none; background-color: #FFFFFF; padding: 0; margin: 0; }

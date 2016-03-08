@@ -1,0 +1,48 @@
+﻿@import url(menu.css);
+body { margin: 0px; color: #135294; font-size: 14px; background: #fff !important; overflow: auto; font-family: 微软雅黑, Arial, 宋体; }
+img { vertical-align: middle; }
+a, a:visited, a:active { color: #135294; text-decoration: none; }
+a:hover { color: #ff6600; text-decoration: none; }
+.header { height: 44px; overflow: hidden;	background: #31DF31; background-repeat: repeat-x; background-position: left top; }
+.logo { display: block; float: left; width: 161px; height: 44px; line-height:44px; text-align:center; font-size:14px;color:#ffffff; overflow: hidden; padding: 0; margin: 0; }
+.nav { display: block; float: left; height: 44px; height: 100%; }
+.nav-right { float: right; color: #ffffff; height: 44px; line-height: 44px; padding: 0 10px 0 0; }
+.main-sidebar { border-right: 1px solid #979797; background: #f6f7f7; }
+.main-sidebar { position: absolute; top: 44px; bottom: 0; left: 0; width: 160px; }
+.main-container { background: #fff; }
+.main-container { position: absolute; top: 44px; right: 0; bottom: 0; left: 161px; }
+.nav-right .user .icon-nav { list-style-type: none; margin: 0; padding: 0; }
+.nav-right .user .icon-nav>li { margin-right: 6px; float: left; font-size: 12px; }
+.nav-right .user .icon-nav>li>a { color: #fff; position: relative; padding: 0; font-size: 12px; }
+.nav-right .user .icon-nav>li>a i { color: #fff; font-size: 16px; margin: 0; }
+.icon-home { background-position: 0 -24px; display: inline-block; background-image: url("../images/glyphicons-halflings.png"); background-repeat: no-repeat; width: 14px; height: 14px; margin-top: 15px; }
+
+/**********************************************************************/
+#top { height: 44px; overflow: hidden; background-image: url(../images/header-bg.jpg); background-repeat: repeat-x; background-position: left top; }
+#top, #top a, #top a:visited { color: #fff; }
+.topleft { width: 160px;	/*background-image: url(/admin/images/Menubg.gif);
+		background-repeat: repeat-x;
+		background-position: bottom;*/ }
+	.topright { height: 50px; overflow: hidden; }
+
+	/*#logo
+	{
+		background-image: url(/admin/images/logo.png);
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 35px;
+		width: 105px;
+		display: block;
+		margin: 10px auto 0 auto;
+	}*/
+	#logo { height: 30px; width: 122px; display: block; margin: 12px auto 0 auto; background-image: url(/admin/images/logo2.png) !important;/* FF IE7 */ background-repeat: no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/admin/images/logo2.png'); /* IE6 */ _ background-image: none; /* IE6 */ overflow: hidden; }
+	.toprightop { height: 24px; line-height: 24px; }
+	.toprightop, .toprightop td, .toprightop a, .toprightop a:visited, .toprightop a:active { color: White !important; }
+	.left {	/*border-left: 1px solid #9AB2D8; border-right: 1px solid #9AB2D8;*/
+	width: 160px; }
+	.right {	/*border-right: 1px solid #9AB2D8;*/ }
+	.Nav { background-image: url(/admin/images/01_14.gif); background-repeat: repeat-x; background-position: bottom; height: 25px; line-height: 25px; }
+	.left_iframe { width: 160px; height: 560px; visibility: inherit; background: transparent; }
+	.navPoint { cursor: hand; }
+	.main_iframe { height: 550px; visibility: inherit; width: 100%; z-index: 1; }
+	.edittable td { text-align: left; }
