@@ -23,22 +23,22 @@ namespace WeiPay
         /// <summary>
         /// mchid ， 微信支付商户号
         /// </summary>
-        //public static string MchId = ""; //1244329802
+        //public static string MchId = ""; //
 
         /// <summary>
         /// appid，应用ID， 在微信公众平台中 “开发者中心”栏目可以查看到
         /// </summary>
-        //public static string AppId = "";//wxfd89e38cbbb15c6d
+        //public static string AppId = "";//
 
         /// <summary>
         /// appsecret ，应用密钥， 在微信公众平台中 “开发者中心”栏目可以查看到
         /// </summary>
-        //public static string AppSecret = ""; //b86fb09854ac029e196674800c3c6e4b
+        //public static string AppSecret = ""; //
       
         /// <summary>
         /// paysignkey，API密钥，在微信商户平台中“账户设置”--“账户安全”--“设置API密钥”，只能修改不能查看
         /// </summary>
-        //public static string AppKey = "";//kangyuankangyuan1111111111111111
+        //public static string AppKey = "";//
 
 
         //static string host = "http://m.carnoy.cc";
